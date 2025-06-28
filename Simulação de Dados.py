@@ -43,13 +43,22 @@ for i in range(12, 68):
     }
     vendas_automaticas.append(venda)
 
-vendas = vendas_manuais + vendas_automaticas
+todas_vendas = vendas_manuais + vendas_automaticas
 
 #formatando a saída
-for venda in vendas:
+for venda in todas_vendas:
     id_ = venda['id']
     produto = venda['produto']
     quantidade = venda['quantidade']
     preco = venda['preço']
     print(f"ID: {id_:>2} | Produto: {produto:<15} | Quantidade: {quantidade:>3} | Preço: R$ {preco:>7.2f} | "f"Data: {venda['data']}")
 
+#salvando os dados em um arquivo
+import csv 
+nome_arquivo = "vendas.csv"
+with open(nome_arquivo, mode="w", newline="", encoding="utf-8") as arquivo:
+    campos = ["id", "produto", "quantidade", "preço", "data"]
+    escritor = csv.DictWriter(arquivo, fieldnames=campos) #csv.DictWriter é uma classe do módulo csv que permite escrever dados em um arquivo CSV usando dicionários. E em fieldnames=campos é definido quais colunas o CSV vai ter e em qual ordem.
+    escritor.writeheader()  # Cabeçalho do CSV
+    for venda in todas_vendas:
+        escritor.writerow(venda)
