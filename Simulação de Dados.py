@@ -8,7 +8,7 @@ vendas_manuais = [
     {"id": 3, "produto": "Calça", "quantidade": 3, "preço": 129.90, "data": "2025-05-05"},
     {"id": 4, "produto": "Jaqueta", "quantidade": 4, "preço": 199.90, "data": "2025-04-24"},
     {"id": 5, "produto": "Bermuda", "quantidade": 7, "preço": 89.90, "data": "2025-03-30"},
-    {"id": 6, "produto": "Blusa", "quantidade": 5, "preço": 79.90, "data": "2025-02-30"},
+    {"id": 6, "produto": "Blusa", "quantidade": 5, "preço": 79.90, "data": "2025-02-27"},
     {"id": 7, "produto": "Salto", "quantidade": 2, "preço": 556.78, "data": "2025-01-18"},
     {"id": 8, "produto": "Sapatilha", "quantidade": 3, "preço": 99.95, "data": "2025-02-09"},
     {"id": 9, "produto": "Bota", "quantidade": 8, "preço": 255.99, "data": "2025-01-12"},
