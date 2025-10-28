@@ -19,9 +19,10 @@ O foco é criar insights e relatórios visuais que possam auxiliar na tomada de 
 ## 🧰 Tecnologias e Bibliotecas Utilizadas
 
 - *Python 3.x*
-- random
-- pandas
-- matplotlib
+- Random
+- Pandas
+- Matplotlib
+- Seaborn
 
 ## 🎯 Objetivos do Projeto
 
