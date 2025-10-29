@@ -3,7 +3,7 @@
 Este repositório contém um projeto pessoal desenvolvido com o objetivo de praticar e aplicar conceitos de *análise e visualização de dados* utilizando a linguagem *Python*.
 Todos os dados foram *gerados manualmente* para simular um cenário realista de vendas online.
 
-🔧 *Status do projeto:* Em desenvolvimento
+🔧 *Status do projeto:* Terminado
 
 
 ## 🚀 Sobre o Projeto
